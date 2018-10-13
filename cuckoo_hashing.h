@@ -13,6 +13,8 @@ public:
     int find(int key);
 
 private:
+    // Two hash functions and two hash tables
+    // are used in the implementation of cuckoo hashing
     int compute_first_hash(int x);
     int compute_second_hash(int x);
 
